@@ -18,5 +18,6 @@ public class BattleUnit : MonoBehaviour
             GetComponent<Image>().sprite = Pokemon.Base.BackSprite;
         else
             GetComponent<Image>().sprite = Pokemon.Base.FrontSprite;
+        
     }
 }
